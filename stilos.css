@@ -10,8 +10,8 @@
 
 body{
   margin-top: 83px;
-  /*background-image: url('wallpaperbetter.com_1280x800_.jpg');*/
-  background-color: rgba(174, 214, 241,0.2);
+  background-image: url('img/beta_2.png');
+  /*background-color: rgba(174, 214, 241,0.2);*/
 
 
 }
@@ -21,7 +21,7 @@ body h1{
   margin-top: 5%;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-size: 150%;
 }
 
 body h3{
@@ -29,8 +29,124 @@ body h3{
   margin-top: 0%;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
   padding-bottom: 2%;
+}
+
+body h4{
+font-size: 80%;
+font-family: sans-serif;arial;
+}
+
+
+
+
+/*Products_____________________________________________*/
+
+.products-list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products-list .products-item{
+  width: 23.5%;
+  margin-left: 1.5%;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  }
+
+.products-list .products-item img{
+  width: 100%;
+
+}
+
+.products-item img{
+  width: 100%;
+  height: 270px;
+}
+
+.products-list .products-item a{
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  /*background: #63f2e9;*/
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.slider{
+
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 400%;
+  margin-top: 4.1%;
+
+  animation: cambio 10s infinite;
+  animation-direction:
+}
+
+.slider li{
+  list-style: none;
+}
+
+.slider img{
+  width: 100%;
+  margin-right: 20px;
+}
+
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
+
+
+.slider2{
+
+  width: 15.5%;
+  height: 15%;
+  margin: auto;
+  margin-bottom: none;
+  overflow: hidden;
+}
+
+.slider2 ul{
+  display: flex;
+  padding: 0;
+  width: 400%;
+  margin-top: 4.1%;
+  animation: cambio 20s infinite;
+  animation-direction:
+}
+
+.slider2 li{
+  list-style: none;
+}
+
+.slider2 img{
+  width: 100%;
+  height: auto;
+  margin-right: 0px;
 }
 
 .container__all{
@@ -370,9 +486,6 @@ nav ul a{
     box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.1);
 }
 
-.line {
-
-}
 
 
 .container__article img{
@@ -391,11 +504,11 @@ nav ul a{
     background-color: rgba(174, 214, 241,0.0);
     font-family: 'Poppins', sans-serif;
     text-align: justify;
-    font-size: 18px;
+
     font-weight: 600;
     border: none;
     color: #222121;
-    font-size: 1rem;
+
     border-radius: 20px;
 
 
@@ -414,19 +527,25 @@ nav ul a{
     background-color: rgba(255, 255, 250, 0.0);
     font-family: 'Poppins', sans-serif;
     text-align: justify;
-    font-size: 18px;
     font-weight: 600;
     border: none;
     color: #222121;
-    font-size: 1rem;
+
 
 
 }
 
 .container__article_pas .box__article_pas h2{
-font-size: 1.5rem;
+
 
 }
+
+.container__article_pas .box__article_pas h3{
+font-size: 5px;
+
+}
+
+
 
 .container__article .box__article img{
 
