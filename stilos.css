@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
+    max-width: auto;
 }
 
 body{
@@ -33,14 +33,22 @@ body h3{
 }
 
 body h4{
-font-size: 80%;
-font-family: sans-serif;arial;
+font-size: 100%;
+font-family: sans-serif;
 }
 
 
 
 
 /*Products_____________________________________________*/
+
+@media screen and (min-width: 930px){
+  .may{
+    max-width:50%; max-height: 100%;text-align: justify;margin-bottom:5%;list-style: none;
+  }
+
+
+    }
 
 .products-list{
   width: 100%;
@@ -414,6 +422,14 @@ nav ul a{
 }
 
 
+
+
+
+
+
+  <div style="max-width:50%; max-height: 100%;text-align: justify;margin-bottom:5%;list-style: none;">
+
+
 @media screen and (max-width: 760px){
 
     .container__nav{
@@ -476,6 +492,7 @@ nav ul a{
 :root{
     --color-esqueleto:#EFF3F5;
 }
+
 
 
 .container__article{
